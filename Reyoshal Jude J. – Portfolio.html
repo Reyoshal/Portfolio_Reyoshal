@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reyoshal Jude J. – Mechatronics & Automation Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F3F5F4;--paper:#FFFFFF;--ink:#14201F;--muted:#4A5B59;--line:#B9C4C2;--accent:#00798A;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#101817;--paper:#162120;--ink:#E6EEEC;--muted:#9DB0AD;--line:#2E3E3C;--accent:#4FC3CF}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#101817;--paper:#162120;--ink:#E6EEEC;--muted:#9DB0AD;--line:#2E3E3C;--accent:#4FC3CF}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Barlow",system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Barlow Semi Condensed","Barlow",system-ui,sans-serif;margin:0;line-height:1.1}
+header{padding:72px 0 48px;border-bottom:2px solid var(--ink)}
+h1{font-size:clamp(44px,9vw,92px);font-weight:700;letter-spacing:-.01em}
+.role{font-size:clamp(19px,2.6vw,24px);color:var(--muted);max-width:34em;margin:20px 0 28px}
+.contact{display:flex;flex-wrap:wrap;gap:12px}
+.contact a{color:var(--ink);text-decoration:none;border:1.5px solid var(--ink);padding:9px 16px;font-weight:500}
+.contact a:hover,.contact a:focus-visible{background:var(--accent);border-color:var(--accent);color:var(--bg);outline:none}
+.contact span{padding:10px 4px;color:var(--muted)}
+section{padding:56px 0 8px}
+h2{font-size:30px;font-weight:600;margin-bottom:24px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+p{margin:0 0 16px;max-width:68ch}
+.sheet{background:var(--paper);border:1.5px solid var(--ink);margin-bottom:28px}
+.sheet .body{padding:22px 24px 20px}
+.sheet h3{font-size:26px;font-weight:600;margin-bottom:8px}
+.sheet p{margin:0;color:var(--muted)}
+.tb{display:grid;grid-template-columns:1fr 1fr 2fr;border-top:1.5px solid var(--ink)}
+.tb div{padding:10px 24px;border-right:1px solid var(--line);font-weight:500}
+.tb div:last-child{border-right:0}
+.tb small{display:block;font-size:13px;color:var(--accent);font-weight:600}
+.job{display:grid;grid-template-columns:200px 1fr;gap:8px 32px;padding:0 0 28px}
+.job h3{font-size:22px;font-weight:600}
+.job .when{color:var(--muted);font-size:15px}
+.job ul,.team ul{margin:0;padding-left:20px;max-width:68ch}
+.job li,.team li{margin-bottom:6px}
+.skills{display:grid;grid-template-columns:200px 1fr;border-top:1px solid var(--line)}
+.skills dt,.skills dd{margin:0;padding:12px 0;border-bottom:1px solid var(--line)}
+.skills dt{font-weight:600;color:var(--accent)}
+.edu{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:baseline}
+footer{padding:56px 0 64px;color:var(--muted);font-size:15px}
+@media (max-width:640px){.tb{grid-template-columns:1fr 1fr}.tb div:nth-child(2){border-right:0}.tb div:last-child{grid-column:1/-1;border-top:1px solid var(--line)}
+.job,.skills{grid-template-columns:1fr}.skills dt{border-bottom:0;padding-bottom:0}.job{gap:4px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Reyoshal Jude J.</h1>
+<p class="role">Mechatronics and Automation student building robots, embedded systems and industrial controls.</p>
+<div class="contact">
+<a href="mailto:reyoshal@gmail.com">reyoshal@gmail.com</a>
+<a href="tel:+919345199673">+91 93451 99673</a>
+<span>Chennai, Tamil Nadu, India</span>
+</div>
+</div></header>
+
+<main class="wrap">
+<section id="about">
+<h2>Profile</h2>
+<p>I’m a B.Tech student with hands-on experience in mechanical design, robotic systems, embedded electronics and industrial automation. I work in CAD, build rover mechanisms, and integrate and test hardware and sensors.</p>
+<p>I’m interested in mechanical prototyping, robotics and control system development.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<article class="sheet"><div class="body">
+<h3>Vortex Suction Wall-Climbing Robot</h3>
+<p>A wall-climbing robot with a four-wheel rocker suspension and a vortex-based impeller for adhesion. I’m developing the mechanical components and a flexible silicone sealing skirt that limits air leakage and copes with uneven surfaces.</p>
+</div>
+<div class="tb"><div><small>Status</small>Ongoing</div><div><small>Discipline</small>Mechanical design</div><div><small>Key parts</small>Rocker suspension, vortex impeller, silicone skirt</div></div></article>
+
+<article class="sheet"><div class="body">
+<h3>5-DOF Robotic Arm</h3>
+<p>An Arduino-based robotic arm with servo-driven joints, built for coordinated multi-axis movement under embedded control.</p>
+</div>
+<div class="tb"><div><small>Status</small>Completed</div><div><small>Discipline</small>Robotics</div><div><small>Key parts</small>Arduino, servo motors</div></div></article>
+
+<article class="sheet"><div class="body">
+<h3>Gesture-Controlled Home Automation</h3>
+<p>A Raspberry Pi system that reads hand gestures to switch lights and fans through relays.</p>
+</div>
+<div class="tb"><div><small>Status</small>Completed</div><div><small>Discipline</small>Embedded systems</div><div><small>Key parts</small>Raspberry Pi, relay switching</div></div></article>
+
+<article class="sheet"><div class="body">
+<h3>IoT Smart Appliance Energy Monitoring System</h3>
+<p>Measures electrical parameters with a PZEM-004T V3.0 and an ESP8266 for real-time monitoring. The ESP8266 hosts a web server and sends data to ThingSpeak for cloud storage and visualization.</p>
+</div>
+<div class="tb"><div><small>Status</small>Completed</div><div><small>Discipline</small>IoT, sensing</div><div><small>Key parts</small>PZEM-004T V3.0, ESP8266, ThingSpeak</div></div></article>
+</section>
+
+<section id="experience">
+<h2>Industrial experience</h2>
+<div class="job">
+<div><h3>Allison Transmission India Pvt. Ltd.</h3><div class="when">Summer Intern, Maintenance Department<br>Chennai · May – Jun 2026</div></div>
+<ul>
+<li>Observed automated manufacturing operations across CNC machining, material handling and assembly.</li>
+<li>Studied maintenance practices, troubleshooting, TPM, OEE and reliability metrics including MTBF and MTTR.</li>
+<li>Designed a 36-bolt continuity testing fixture in SolidWorks for component verification.</li>
+</ul></div>
+<div class="job">
+<div><h3>Pricol Limited</h3><div class="when">Summer Intern, Corporate Manufacturing Engineering<br>Coimbatore · Jun – Jul 2025</div></div>
+<ul>
+<li>Observed electrical panel wiring and PLC-based workstations in industrial automation systems.</li>
+<li>Designed electrical circuits in SolidWorks Electrical and developed ladder logic in Omron Sysmac Studio.</li>
+<li>Simulated an energy monitoring system using an NJ101 PLC and NA5 HMI with Structured Text.</li>
+</ul></div>
+</section>
+
+<section id="team">
+<h2>Team activity</h2>
+<div class="job team">
+<div><h3>MOVIS, Special Team</h3><div class="when">Human Exploration Rover Challenge (HERC)<br>2025 – 2026</div></div>
+<ul>
+<li>Contributed to rover chassis design and rocker-bogie suspension development through CAD modeling and structural subsystem design.</li>
+<li>Part of the team that placed 6th among 72 teams worldwide, finishing the course in 7:02.</li>
+</ul></div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<dl class="skills">
+<dt>CAD & mechanical design</dt><dd>SolidWorks, Autodesk Fusion 360</dd>
+<dt>Robotics & actuation</dt><dd>Arduino, servo motors, motor drivers</dd>
+<dt>Embedded systems</dt><dd>ESP32, ESP8266, Arduino, sensor interfacing</dd>
+<dt>Control engineering</dt><dd>MATLAB/Simulink, control systems</dd>
+<dt>Industrial automation</dt><dd>PLC programming, ladder logic</dd>
+<dt>Programming</dt><dd>Python, Java, MATLAB</dd>
+</dl>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="edu"><div><h3>Vellore Institute of Technology, Chennai</h3>B.Tech in Mechatronics and Automation</div><div>2023 – 2027 · CGPA 8.62/10</div></div>
+</section>
+</main>
+
+<footer><div class="wrap">Reach me at <a href="mailto:reyoshal@gmail.com" style="color:var(--accent)">reyoshal@gmail.com</a> or +91 93451 99673.</div></footer>
+</body>
+</html>
